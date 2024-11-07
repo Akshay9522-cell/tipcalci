@@ -1,0 +1,10 @@
+.btn{
+   border: 1px solid black;
+   text-transform: uppercase;
+   letter-spacing: 1rem;
+   background-color: aqua;
+   box-shadow: 20px 10px 20px;
+   cursor: pointer;
+   padding: 20px;
+
+}

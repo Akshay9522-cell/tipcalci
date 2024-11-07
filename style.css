@@ -1,0 +1,26 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 1px solid black;
+    transition: all 1s ease-out    5s;
+    transition-property: margin-right, color;
+      transform-origin: 50% 50%; /* anything other than `0 0` to see the effect */
+  transform-box: fill-box;
+  animation: rotateBox 3s alternate-reverse infinite;
+}
+
+@keyframes rotateBox {
+  to {
+    transform: rotate(360deg);
+  }
+  0%{
+    background-color: aqua;
+  }
+  25%{
+    background-color: aquamarine;
+  }
+75%{
+  background-color: rgb(7, 130, 89);
+}
+}
